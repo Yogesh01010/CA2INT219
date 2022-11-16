@@ -1,6 +1,4 @@
-/* reset */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
-article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+
 ol,ul{list-style:none;margin:0px;padding:0px;}
 blockquote,q{quotes:none;}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
@@ -23,17 +21,11 @@ img{max-width:100%;}
 body{
 	background: url(../images/box-bg.png);
 }
-/*end reset*/
-/*=============================
- * start-wrap
- ============================*/
-.wrap{
+
 	width:80%;
 	margin:0 auto;
 }
-/*=============================
- * start-header
- ============================*/
+
 .header{
 	background: url(../images/box1.png) repeat-x;
 }
@@ -98,9 +90,7 @@ s
 	vertical-align: middle;
 	padding: 0px 5px 0px 0px;
 }
-/*=============================
- * start-content
- ============================*/
+
 .content-grid-pic{
 	float:left;
 	width:25%;
@@ -173,9 +163,7 @@ s
 	text-align: center;
 	margin: 0.5em auto;
 }
-/*=============================
- * start-content-box
- ============================*/
+
 .content-box-left{
 	float:left;
 	width:70%;
@@ -429,8 +417,7 @@ s
 .copy-tight a:hover{
 	color: #3B3B3B;
 }
-/*---start-about----*/
-/*----start-about-----*/
+
 .about-grid{
 	width: 31.33%;
 	float: left;
@@ -700,8 +687,7 @@ s
 .gallery-grid h4:hover{
 	color:#71D6EA;
 }
-/*---contect----*/
-/*  Contact Form  ============================================================================= */
+
 .section {
 	clear: both;
 	padding: 0px;
@@ -818,13 +804,12 @@ s
 	margin-bottom:15px;
 }
 
-/***** Media Quries *****/
 @media only screen and (max-width: 1024px) {
 	.wrap{
 		width:95%;
 	}	
 }
-/*  GO FULL WIDTH AT LESS THAN 800 PIXELS */
+
 
 @media only screen and (max-width: 800px) {
 	.wrap{
@@ -843,7 +828,7 @@ s
 	}
 }
 
-/*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
+
 
 @media only screen and (max-width: 640px) and (min-width: 480px) {
 	.wrap{
